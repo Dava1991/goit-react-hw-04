@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar/SearchBar";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
-import { fetchPhoto } from "./components/fetchPhoto";
+import { fetchPhoto } from "./fetchPhoto";
 import LoadMoreButton from "./components/LoadMoreBtn/LoadMoreBtn";
 import Loader from "./components/Loader/Loader";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
